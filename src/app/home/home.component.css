@@ -26,6 +26,12 @@ button {
   background: var(--primary-color);
   color: white;
   border-radius: 8px;
+  outline: none;
+  transition: 300ms;
+}
+
+button:focus {
+  box-shadow: 0 0 0 2px var(--primary-color);
 }
 
 @media (min-width: 500px) and (max-width: 768px) {
