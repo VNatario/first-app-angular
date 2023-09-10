@@ -9,4 +9,6 @@ import { HousingLocation } from '../housinglocation';
   template: ` <p>housing-location works!</p> `,
   styleUrls: ['./housing-location.component.css'],
 })
-export class HousingLocationComponent {}
+export class HousingLocationComponent {
+  @Input() housingLocation!: HousingLocation;
+}
