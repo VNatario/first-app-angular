@@ -36,3 +36,5 @@ export class HomeComponent {
     laundry: false,
   };
 }
+
+// TERMINEI A LIÇÃO 6
