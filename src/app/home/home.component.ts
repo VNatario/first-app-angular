@@ -35,5 +35,3 @@ export class HomeComponent {
     this.housingLocationList = this.housingService.getAllHousingLocation();
   }
 }
-
-// TERMINEI A LIÇÃO 7
